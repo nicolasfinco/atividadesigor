@@ -6,15 +6,15 @@
     <title>Document</title>
 
     <script>
-    var nume = Number(prompt("digite o primeiro numero: "))
-    var nume2 = Number(prompt("digite o segundo numero: "))
-    
-    alert("Soma: " + (nume + nume2))
-    alert("Multiplicação: " + (nume * nume2))
-    alert("Divisão: " + (nume / nume2))
-    alert("Subtração: " + (nume - nume2))
-</script>
+    let preco = Number(prompt("Digite o preço original do produto:"));
+    let desconto = Number(prompt("Digite a porcentagem de desconto (%):"));
 
+    let valor_desconto = (preco * desconto) / 100;
+    let precoFinal = preco - valor_desconto;
+
+    alert("O preço final com desconto é: R$ " + precoFinal);
+
+    </script>
 </head>
 <body>
     
